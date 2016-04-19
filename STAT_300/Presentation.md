@@ -35,7 +35,7 @@ Motivation
   + remeber: time grid
 - But **total usage** $(x_i)$ is either automatically or manually gathered  for billing $(!)$
   + This will prove useful later on
-
+ 
 
 Motivation
 ========================================================
@@ -82,17 +82,18 @@ Sampling Choices
 
 
 
-Some estimates of population means
+Estimates of population means
 ========================================================
 
-**Sample average $(S)$, Horvitz-Thompson $(HT)$, Hajek $(H)$**
-  
+*Sample average* $(S)$, *Horvitz-Thompson* $(HT)$, *Hajek* $(H)$: for $\ t$
+<small>
 $$
 \begin{align}
 &\widehat\mu_{S}(t) = \frac{1}{n}\sum_{i = 1}^N S_i\  f_i(t),& &\widehat\mu_{HT}(t)= \frac{1}{N}\sum_{i = 1}^N\frac{S_i}{\pi_i} f_i(t)\\
 &\widehat\mu_{H}(t) = \frac{1}{\widehat N}\sum_{i = 1}^N\frac{S_i}{\pi_i} f_i(t),& & \widehat N = \sum_{i = 1}^N\frac{S_i}{\pi_i}
 \end{align}
 $$ 
+</small>
 
 $\widehat N$ is called the **sample weight**
 - $\mathbb{E}[\widehat N] = N$, $\ \ H$ is a stable version of $HT$
@@ -143,7 +144,9 @@ $$
 Err(\widehat{\mu}_{*}, {\mu}) = \left(\frac{1}{T}\sum_{t = t_1}^{t_T}\left(\widehat{\mu}_{*}(t) - {\mu}(t)\right)^2 \right)^{1/2}
 $$
 
-How did the Estimators do?
+How did the Estimators do? 
+
+For this example, the RMSEs are:
 
 Estimate | Error|
 ---------| ----|
@@ -266,8 +269,8 @@ $$
 $$
 
 
-1. We're **modeling** the unobserved population quantities
-2. Leaves lots to be desired
+1. We **are modeling** the unobserved population quantities
+2. We **could model** better
 
 
 Making a case for modeling
@@ -278,22 +281,23 @@ Why model?
  - Even simple modeling has been shown to outperform weighting 
   + Little et.al. (2013, 2015) - penalized splines to model univariate outcomes
   + Si, Pillai, Gelman (2015) - GP to model univariate outcomes
- - Models are **extendable**, estimators are not
+ - Models are easily **extendable**. Estimators maybe not.
  - Modern computation allows for **sophisticated modeling**
+ - $\pi_i$ may not mean what we think it means
  - incorporate **prior information** *
  - **stability of estimates** *
 
-
+ 
 Making a case for modeling
 ========================================================
 incremental: true
 What Model? GP is **natural model** for functional data.
 
-Model $\ f_i(t)$ as a function of time as well as the **auxiliary variable** $x_i$
+Model $\ f_i(t)$ as a function of time and the **auxiliary variable** $x_i$
 
 $$
 \begin{align*}
-f_i(t) &= f(t, x_i) \sim GP(\mu(t, x_i), K)\\
+f_i(t) = f(t, x_i) &\sim GP(\nu(t, x_i), K)\\
 K\left((t, x), (t', x')\right) &= \sigma_1^2 exp\left(-\frac{(t - t')^2}{l_1^2} -\frac{(x - x')^2}{l_2^2}\right)\\ 
 &+\  \sigma_2^2 \delta_{x = x'} exp\left(-\frac{(t - t')^2}{l_3^2}\right) + \sigma_3^2  \delta_{x = x',\ t = t'}
 \end{align*}
@@ -332,7 +336,7 @@ Predictive distribution
 =========
 incremental: true
 
-Lifted straight out of Rasmussen & Williams (2006)
+Lifted straight out of Rasmussen & Williams (R&W 2006)
 
 $$ 
 \begin{align*}
@@ -346,11 +350,13 @@ Predictive distribution
 =========
 
 **Challenges**:
-- For $n = 100$, $X_{obs}$ has $\ 5100$ rows. 
-- Imputation dataset, $N-n = 900$ is very big.
+- For $\ n = 100$, $\ X_{obs}$ has $\ 5100$ rows. 
+- Imputation dataset, $\ N-n = 900$, is **very big**.
 
 **Solutions**:
-- Fit with Sparse-GP (Hensman, et.al. 2013)
+- Fit with Sparse-GP (Hensman, et.al. 2013, CH 8 R&W 2006)
+  + select $\ m$ inducing points (anchor points)
+  + replace: $\ K_{N'N'} \approx K_{N'm}K_{mm}^{-1}K_{mN'}$ (Nyström approx.)
 - Impute in chunks (more on this later)
 
 
@@ -413,9 +419,9 @@ Confidence Bands with GP model
 incremental: true
 
 
-`1.` **Repeat the following  $\ J$ times**
+`1.` **Repeat** the following  $\ J$ times
 
-- Sample a **prediction** function
+- Sample a **prediction** surface
 
 $$
 Y_{*}^j\ |\ X_{obs}, Y_{obs}, X_{*} \sim N(\mu^*, \Sigma^*)
@@ -445,7 +451,7 @@ incremental: true
 - We argued for **modeling instead of weighting**
   + Found out modeling can be hard
   + But sometimes worth it
-- Lots more to do:
+- **Lots more to do**:
   + Inference properties, comparison with other model-assisted estimators
   + Many remaining computational issues
 
