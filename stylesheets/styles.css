@@ -76,7 +76,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:32px;
 }
 
 h2 {
@@ -257,6 +257,7 @@ header nav {
 header ul {
   overflow: auto;
   list-style-type: none;
+  margin: 0; padding: 0;
 }
  
 header li {
@@ -264,7 +265,8 @@ header li {
   /*float: left;*/
   margin-right: 0px;
   border-right: 0px;
-  padding: 0 20px;
+  margin: 0; padding: 0;
+  /*padding: 0 20px;*/
 }
 
 header li:last-child {
