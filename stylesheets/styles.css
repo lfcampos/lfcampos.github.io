@@ -160,11 +160,11 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
+  /*position:fixed;*/
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
+/*header ul {
   list-style:none;
   height:40px;
   padding:0;
@@ -178,7 +178,7 @@ header li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  height:20px;
 }
 
 header li:first-child a {
@@ -206,13 +206,13 @@ header ul a:hover {
 header ul a:active {
   background-color:#f0f0f0;
 }
-
+*/
 strong {
   color:#222;
   font-weight:700;
 }
 
-header ul li + li + li {
+/*header ul li + li + li {
   border-right:none;
   width:89px;
 }
@@ -222,7 +222,7 @@ header ul a strong {
   display:block;
   color:#222;
 }
-
+*/
 section {
   width:500px;
   float:right;
@@ -247,6 +247,52 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+
+/* CUSTOM CSS - LC*/
+header nav {
+  margin: 50px;
+}
+
+header ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+header li {
+  /*height: 12px;*/
+  /*float: left;*/
+  margin-right: 0px;
+  border-right: 0px;
+  padding: 0 20px;
+}
+
+header li:last-child {
+  border-right: none;
+}
+ 
+header li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 14px/1 Helvetica, Verdana, sans-serif; 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+header li a:hover {
+  color: #666;
+}
+ 
+header li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+/* CUSTOM CSS - LC*/
+
 
 @media print, screen and (max-width: 960px) {
 
@@ -322,3 +368,7 @@ footer {
     color:#444;
   }
 }
+
+
+
+
