@@ -76,7 +76,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:32px;
+  font-size:28px;
 }
 
 h2 {
@@ -160,7 +160,7 @@ img {
 header {
   width:270px;
   float:left;
-  /*position:fixed;*/
+  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -261,12 +261,12 @@ header ul {
 }
  
 header li {
+  font: 12pt;
   /*height: 12px;*/
   /*float: left;*/
   margin-right: 0px;
   border-right: 0px;
-  margin: 0; padding: 0;
-  /*padding: 0 20px;*/
+  padding: 0 0px;
 }
 
 header li:last-child {
