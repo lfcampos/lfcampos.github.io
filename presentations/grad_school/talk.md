@@ -1,6 +1,6 @@
-Graduate School Things
+Graduate School
 ========================================================
-author: Mr. Luis F. Campos
+author: Luis F. Campos
 date: Friday, June 24, 2016
 autosize: true
 
@@ -11,10 +11,11 @@ Poll
 ========================================================
 incremental: true
 
-- What year?
+- What year are you?
+- Have done some research?
 - Who is thinking about going to Graduate School?
 - Who wants to go to Graduate School?
-- Who is absolutely sure they want to go to Graduate School
+- Who is absolutely sure they want to go to Graduate School?
 
 
 
@@ -24,22 +25,28 @@ What I hope to accomplish
 incremental: true
 
 - Tell you a bit about my experience with Graduate School
+  - applications, fellowships, mentors
 - Give you the career perspective of Graduate School
+  - as opposed to the "Undergrad+" perspective
 - Some parting wisdom and unsolicited advice
 
 
 
 UC Davis
 ========================================================
-![alt text](./images/3.jpg)
+incremental: true
 
+![alt text](./images/3.jpg)
+- Computer Science, Philosophy, Physics, Engineering
+- Statistics and Mathematics - Why?
 
 
 Undergraduate Research at UC Davis
 ========================================================
+incremental: true
 
 ![alt text](./images/fvc_web.jpg)
- 
+
 - Learning deeply with a purpose
 - Exploring the unknown
 - Reading and understanding PhD-level research
@@ -51,13 +58,24 @@ UC Davis School of Medicine
 
 UC Davis School of Medicine
 ========================================================
+incremental: true
+
 ![alt text](./images/Danh_Nguyen_Feb2013.jpg)
 
-Goals Danh (\^ my boss) made me write out (literally):
+Goals Danh (\^ my boss/mentor) made me write out (literally):
 - Apply for graduate school
 - Gain experience in medical research
 - Gain experience in statistics research
 
+
+UC Davis School of Medicine
+========================================================
+incremental: true
+
+What I accomplished (**and learned**):
+- Several medical publications (**always be writing**)
+- The beginnings of a statistics research project (**be prepared to fail, a lot**)
+- Follow through on projects (**things are not done until they are, though they won't feel like they are**)
 
 
 UC Berkeley
@@ -79,13 +97,18 @@ UC Irvine School of Medicine
 
 UC Irvine School of Medicine
 ========================================================
+incremental: true
 
-Goals:
+Goals (starting over?):
 - Apply for graduate school (again)
 - Gain (more) experience in medical research
 - Gain (more) experience in statistics research
  
 
+What I learned again, and more:
+- Always be writing
+- Be prepared to fail, a lot
+- Things are not done until they are, though they won't feel like they are
 
 Harvard University
 ========================================================
@@ -94,7 +117,7 @@ Harvard University
 
 
 
-Why am I so persistent?
+Why am I so persistent (hard-headed)?
 ========================================================
 incremental: true
 
