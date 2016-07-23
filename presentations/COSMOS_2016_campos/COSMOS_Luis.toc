@@ -1,12 +1,12 @@
 \beamer@endinputifotherversion {3.33pt}
-\beamer@sectionintoc {1}{Data Visualization}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Why is visualizing data important?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Facebook example}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Vernacular example}{13}{0}{1}
-\beamer@subsubsectionintoc {1}{3}{1}{k-NN to predict where someone is from}{25}{0}{1}
-\beamer@subsectionintoc {1}{4}{Interactive Data Visualizations}{34}{0}{1}
-\beamer@sectionintoc {2}{A crisis in science? (Reproducibility)}{39}{0}{2}
-\beamer@subsectionintoc {2}{1}{p-values, huh?}{40}{0}{2}
-\beamer@subsectionintoc {2}{2}{Publication Bias}{52}{0}{2}
-\beamer@subsectionintoc {2}{3}{p-Hacking}{56}{0}{2}
-\beamer@subsectionintoc {2}{4}{Some Hope for the Future}{63}{0}{2}
+\beamer@sectionintoc {1}{A crisis in science? (Reproducibility)}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{p-values, huh?}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Publication Bias}{16}{0}{1}
+\beamer@subsectionintoc {1}{3}{p-Hacking}{20}{0}{1}
+\beamer@subsectionintoc {1}{4}{Some Hope for the Future}{27}{0}{1}
+\beamer@sectionintoc {2}{Data Visualization}{33}{0}{2}
+\beamer@subsectionintoc {2}{1}{Why is visualizing data important?}{33}{0}{2}
+\beamer@subsectionintoc {2}{2}{Facebook example}{35}{0}{2}
+\beamer@subsectionintoc {2}{3}{Vernacular example}{43}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{k-NN to predict where someone is from}{55}{0}{2}
+\beamer@subsectionintoc {2}{4}{Interactive Data Visualizations}{64}{0}{2}

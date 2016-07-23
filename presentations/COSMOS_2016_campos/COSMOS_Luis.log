@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 JUL 2016 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 JUL 2016 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,176 +919,58 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./COSMOS_Luis.toc) [2
 
-] [3
+]
+Missing character: There is no â in font cmss8!
+Missing character: There is no € in font cmss8!
+Missing character: There is no ™ in font cmss8!
+ [3
 
 ] [4
 
-]
-<./visualization/facebook_logo.jpg, id=119, 953.5625pt x 536.0025pt>
-File: ./visualization/facebook_logo.jpg Graphic file (type jpg)
+] [5
 
-<use ./visualization/facebook_logo.jpg>
-Package pdftex.def Info: ./visualization/facebook_logo.jpg used on input line 1
-21.
-(pdftex.def)             Requested size: 286.07095pt x 160.80199pt.
- [5
+] [6
 
- <./visualization/facebook_logo.jpg>] <./visualization/facebook.jpg, id=125, 23
-76.88pt x 1183.42125pt>
-File: ./visualization/facebook.jpg Graphic file (type jpg)
+] [7
 
-<use ./visualization/facebook.jpg>
-Package pdftex.def Info: ./visualization/facebook.jpg used on input line 129.
-(pdftex.def)             Requested size: 309.00525pt x 153.85016pt.
+] [8
 
-Overfull \hbox (1.71538pt too wide) in paragraph at lines 129--129
- [] 
- []
+] [9
 
-[6
+] [10
 
- <./visualization/facebook.jpg>]
-<./visualization/facebook2013.jpg, id=134, 1104.125pt x 621.32124pt>
-File: ./visualization/facebook2013.jpg Graphic file (type jpg)
+] [11
 
-<use ./visualization/facebook2013.jpg>
-Package pdftex.def Info: ./visualization/facebook2013.jpg used on input line 13
-7.
-(pdftex.def)             Requested size: 303.62689pt x 170.85913pt.
- [7
-
- <./visualization/facebook2013.jpg>]
-<./visualization/earth_night.jpg, id=142, 1734.48pt x 867.24pt>
-File: ./visualization/earth_night.jpg Graphic file (type jpg)
-
-<use ./visualization/earth_night.jpg>
-Package pdftex.def Info: ./visualization/earth_night.jpg used on input line 143
-.
-(pdftex.def)             Requested size: 312.19293pt x 156.09647pt.
-
-Overfull \hbox (4.90306pt too wide) in paragraph at lines 143--143
- [] 
- []
-
-[8
-
- <./visualization/earth_night.jpg>]
-<./visualization/SEAsia_map.png, id=149, 722.7pt x 505.89pt>
-File: ./visualization/SEAsia_map.png Graphic file (type png)
-
-<use ./visualization/SEAsia_map.png>
-Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 156.
-
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-
-<./visualization/SEAsia_fb.png, id=150, 722.7pt x 505.89pt>
-File: ./visualization/SEAsia_fb.png Graphic file (type png)
-
-<use ./visualization/SEAsia_fb.png>
-Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 156.
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-
-Overfull \hbox (10.69911pt too wide) in paragraph at lines 156--156
- [][] 
- []
-
-[9
-
- <./visualization/SEAsia_map.png> <./visualization/SEAsia_fb.png>]
-File: ./visualization/SEAsia_map.png Graphic file (type png)
-
-<use ./visualization/SEAsia_map.png>
-Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 156.
-
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-File: ./visualization/SEAsia_fb.png Graphic file (type png)
- <use ./visualization/SEAsia_fb.png>
-Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 156.
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-
-Overfull \hbox (10.69911pt too wide) in paragraph at lines 156--156
- [][] 
- []
-
-[10
-
-]
-File: ./visualization/SEAsia_map.png Graphic file (type png)
- <use ./visualization/SEAsia_map.png>
-Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 156.
-
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-File: ./visualization/SEAsia_fb.png Graphic file (type png)
- <use ./visualization/SEAsia_fb.png>
-Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 156.
-(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
-
-Overfull \hbox (10.69911pt too wide) in paragraph at lines 156--156
- [][] 
- []
-
-[11
-
-]
-File: ./visualization/facebook.jpg Graphic file (type jpg)
- <use ./visualization/facebook.jpg>
-Package pdftex.def Info: ./visualization/facebook.jpg used on input line 170.
-(pdftex.def)             Requested size: 118.85095pt x 59.17451pt.
- [12
+] [12
 
 ] [13
 
 ]
-<./visualization/sodapopcoke.png, id=184, 795.4518pt x 542.025pt>
-File: ./visualization/sodapopcoke.png Graphic file (type png)
-
-<use ./visualization/sodapopcoke.png>
-Package pdftex.def Info: ./visualization/sodapopcoke.png used on input line 361
-.
-(pdftex.def)             Requested size: 318.17508pt x 216.80615pt.
-
-Overfull \hbox (10.88521pt too wide) in paragraph at lines 361--361
-[][]  
- []
-
 [14
 
- <./visualization/sodapopcoke.png>] [15
+] [15
 
 ]
-<./visualization/you_all.jpg, id=200, 786.09474pt x 436.15579pt>
-File: ./visualization/you_all.jpg Graphic file (type jpg)
-
-<use ./visualization/you_all.jpg>
-Package pdftex.def Info: ./visualization/you_all.jpg used on input line 387.
-(pdftex.def)             Requested size: 314.43233pt x 174.45921pt.
-
-Overfull \hbox (7.14246pt too wide) in paragraph at lines 387--387
-[][]  
- []
-
-[16
-
- <./visualization/you_all.jpg>] [17
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 419.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 158.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 419.
+LaTeX Font Info:    Try loading font information for U+msb on input line 158.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 419.
+line 158.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [18
+) [16
+
+] [17
+
+] [18
 
 ] [19
 
@@ -1098,147 +980,256 @@ thkerncmss.
 
 ] [22
 
-]
-<./visualization/irvine.png, id=248, 1239.63126pt x 602.25pt>
-File: ./visualization/irvine.png Graphic file (type png)
+] [23
 
-<use ./visualization/irvine.png>
-Package pdftex.def Info: ./visualization/irvine.png used on input line 471.
-(pdftex.def)             Requested size: 334.70491pt x 162.60966pt.
+] [24
 
-Overfull \hbox (27.41504pt too wide) in paragraph at lines 471--471
-[][]  
- []
-
-[23
-
- <./visualization/irvine.png (PNG copy)>]
-<./visualization/davenport.png, id=255, 1239.63126pt x 602.25pt>
-File: ./visualization/davenport.png Graphic file (type png)
-
-<use ./visualization/davenport.png>
-Package pdftex.def Info: ./visualization/davenport.png used on input line 475.
-(pdftex.def)             Requested size: 334.70491pt x 162.60966pt.
-
-Overfull \hbox (27.41504pt too wide) in paragraph at lines 475--475
-[][]  
- []
-
-[24
-
- <./visualization/davenport.png (PNG copy)>] [25
+] [25
 
 ] [26
 
-] [27
+]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+ [27
 
 ]
-<./visualization/amazon.png, id=281, 1108.14pt x 621.32124pt>
-File: ./visualization/amazon.png Graphic file (type png)
-
-<use ./visualization/amazon.png>
-Package pdftex.def Info: ./visualization/amazon.png used on input line 502.
-(pdftex.def)             Requested size: 299.2018pt x 167.75897pt.
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
  [28
 
- <./visualization/amazon.png>]
-<./visualization/netflix.jpg, id=289, 1927.2pt x 1084.05pt>
-File: ./visualization/netflix.jpg Graphic file (type jpg)
-
-<use ./visualization/netflix.jpg>
-Package pdftex.def Info: ./visualization/netflix.jpg used on input line 506.
-(pdftex.def)             Requested size: 327.61967pt x 184.28606pt.
-
-Overfull \hbox (20.3298pt too wide) in paragraph at lines 506--506
-[][]  
- []
-
-[29
-
- <./visualization/netflix.jpg>]
-<./visualization/netflix2.jpg, id=296, 639.89063pt x 448.67625pt>
-File: ./visualization/netflix2.jpg Graphic file (type jpg)
-
-<use ./visualization/netflix2.jpg>
-Package pdftex.def Info: ./visualization/netflix2.jpg used on input line 510.
-(pdftex.def)             Requested size: 287.94812pt x 201.90245pt.
- [30
-
- <./visualization/netflix2.jpg>] [31
+]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+ [29
 
 ]
-File: ./visualization/sodapopcoke.png Graphic file (type png)
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
 
-<use ./visualization/sodapopcoke.png>
-Package pdftex.def Info: ./visualization/sodapopcoke.png used on input line 529
+[30
+
+]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+ [31
+
+]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no ™ in font cmss10!
+ [32
+
+] [33
+
+] [34
+
+]
+<./visualization/facebook_logo.jpg, id=322, 953.5625pt x 536.0025pt>
+File: ./visualization/facebook_logo.jpg Graphic file (type jpg)
+
+<use ./visualization/facebook_logo.jpg>
+Package pdftex.def Info: ./visualization/facebook_logo.jpg used on input line 3
+14.
+(pdftex.def)             Requested size: 286.07095pt x 160.80199pt.
+ [35
+
+ <./visualization/facebook_logo.jpg>] <./visualization/facebook.jpg, id=328, 23
+76.88pt x 1183.42125pt>
+File: ./visualization/facebook.jpg Graphic file (type jpg)
+
+<use ./visualization/facebook.jpg>
+Package pdftex.def Info: ./visualization/facebook.jpg used on input line 322.
+(pdftex.def)             Requested size: 309.00525pt x 153.85016pt.
+
+Overfull \hbox (1.71538pt too wide) in paragraph at lines 322--322
+ [] 
+ []
+
+[36
+
+ <./visualization/facebook.jpg>]
+<./visualization/facebook2013.jpg, id=337, 1104.125pt x 621.32124pt>
+File: ./visualization/facebook2013.jpg Graphic file (type jpg)
+
+<use ./visualization/facebook2013.jpg>
+Package pdftex.def Info: ./visualization/facebook2013.jpg used on input line 33
+0.
+(pdftex.def)             Requested size: 303.62689pt x 170.85913pt.
+ [37
+
+ <./visualization/facebook2013.jpg>]
+<./visualization/earth_night.jpg, id=345, 1734.48pt x 867.24pt>
+File: ./visualization/earth_night.jpg Graphic file (type jpg)
+
+<use ./visualization/earth_night.jpg>
+Package pdftex.def Info: ./visualization/earth_night.jpg used on input line 336
 .
-(pdftex.def)             Requested size: 318.17508pt x 216.80615pt.
+(pdftex.def)             Requested size: 312.19293pt x 156.09647pt.
 
-Overfull \hbox (10.88521pt too wide) in paragraph at lines 529--529
-[][]  
+Overfull \hbox (4.90306pt too wide) in paragraph at lines 336--336
+ [] 
  []
 
-[32
+[38
 
-]
-<./visualization/sodapopcoke_original.png, id=317, 850.17625pt x 663.47874pt>
-File: ./visualization/sodapopcoke_original.png Graphic file (type png)
+ <./visualization/earth_night.jpg>]
+<./visualization/SEAsia_map.png, id=352, 722.7pt x 505.89pt>
+File: ./visualization/SEAsia_map.png Graphic file (type png)
 
-<use ./visualization/sodapopcoke_original.png>
-Package pdftex.def Info: ./visualization/sodapopcoke_original.png used on input
- line 533.
-(pdftex.def)             Requested size: 297.56615pt x 232.22102pt.
+<use ./visualization/SEAsia_map.png>
+Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 349.
 
-Overfull \vbox (2.56908pt too high) detected at line 533
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
+
+<./visualization/SEAsia_fb.png, id=353, 722.7pt x 505.89pt>
+File: ./visualization/SEAsia_fb.png Graphic file (type png)
+
+<use ./visualization/SEAsia_fb.png>
+Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 349.
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
+
+Overfull \hbox (10.69911pt too wide) in paragraph at lines 349--349
+ [][] 
  []
 
-[33
+[39
 
- <./visualization/sodapopcoke_original.png>]
-<./visualization/voting_habits_viz.png, id=325, 959.585pt x 560.0925pt>
-File: ./visualization/voting_habits_viz.png Graphic file (type png)
+ <./visualization/SEAsia_map.png> <./visualization/SEAsia_fb.png>]
+File: ./visualization/SEAsia_map.png Graphic file (type png)
 
-<use ./visualization/voting_habits_viz.png>
-Package pdftex.def Info: ./visualization/voting_habits_viz.png used on input li
-ne 598.
-(pdftex.def)             Requested size: 316.66403pt x 184.83109pt.
+<use ./visualization/SEAsia_map.png>
+Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 349.
 
-Overfull \hbox (9.37416pt too wide) in paragraph at lines 598--598
-[][]  
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
+File: ./visualization/SEAsia_fb.png Graphic file (type png)
+ <use ./visualization/SEAsia_fb.png>
+Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 349.
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
+
+Overfull \hbox (10.69911pt too wide) in paragraph at lines 349--349
+ [][] 
  []
 
-[34
-
- <./visualization/voting_habits_viz.png>] [35
-
-] [36
-
-] [37
-
-] [38
+[40
 
 ]
-Missing character: There is no â in font cmss8!
-Missing character: There is no € in font cmss8!
-Missing character: There is no ™ in font cmss8!
- [39
+File: ./visualization/SEAsia_map.png Graphic file (type png)
+ <use ./visualization/SEAsia_map.png>
+Package pdftex.def Info: ./visualization/SEAsia_map.png used on input line 349.
 
-] [40
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
+File: ./visualization/SEAsia_fb.png Graphic file (type png)
+ <use ./visualization/SEAsia_fb.png>
+Package pdftex.def Info: ./visualization/SEAsia_fb.png used on input line 349.
+(pdftex.def)             Requested size: 158.99449pt x 111.29613pt.
 
-]
+Overfull \hbox (10.69911pt too wide) in paragraph at lines 349--349
+ [][] 
+ []
+
 [41
 
-] [42
+]
+File: ./visualization/facebook.jpg Graphic file (type jpg)
+ <use ./visualization/facebook.jpg>
+Package pdftex.def Info: ./visualization/facebook.jpg used on input line 363.
+(pdftex.def)             Requested size: 118.85095pt x 59.17451pt.
+ [42
 
 ] [43
 
-] [44
+]
+<./visualization/sodapopcoke.png, id=386, 795.4518pt x 542.025pt>
+File: ./visualization/sodapopcoke.png Graphic file (type png)
 
-] [45
+<use ./visualization/sodapopcoke.png>
+Package pdftex.def Info: ./visualization/sodapopcoke.png used on input line 554
+.
+(pdftex.def)             Requested size: 318.17508pt x 216.80615pt.
 
-] [46
+Overfull \hbox (10.88521pt too wide) in paragraph at lines 554--554
+[][]  
+ []
 
-] [47
+[44
+
+ <./visualization/sodapopcoke.png>] [45
+
+]
+<./visualization/you_all.jpg, id=400, 786.09474pt x 436.15579pt>
+File: ./visualization/you_all.jpg Graphic file (type jpg)
+
+<use ./visualization/you_all.jpg>
+Package pdftex.def Info: ./visualization/you_all.jpg used on input line 580.
+(pdftex.def)             Requested size: 314.43233pt x 174.45921pt.
+
+Overfull \hbox (7.14246pt too wide) in paragraph at lines 580--580
+[][]  
+ []
+
+[46
+
+ <./visualization/you_all.jpg>] [47
 
 ] [48
 
@@ -1250,116 +1241,124 @@ Missing character: There is no ™ in font cmss8!
 
 ] [52
 
-] [53
-
-] [54
-
-] [55
-
 ]
-[56
+<./visualization/irvine.png, id=449, 1239.63126pt x 602.25pt>
+File: ./visualization/irvine.png Graphic file (type png)
+
+<use ./visualization/irvine.png>
+Package pdftex.def Info: ./visualization/irvine.png used on input line 664.
+(pdftex.def)             Requested size: 334.70491pt x 162.60966pt.
+
+Overfull \hbox (27.41504pt too wide) in paragraph at lines 664--664
+[][]  
+ []
+
+[53
+
+ <./visualization/irvine.png (PNG copy)>]
+<./visualization/davenport.png, id=456, 1239.63126pt x 602.25pt>
+File: ./visualization/davenport.png Graphic file (type png)
+
+<use ./visualization/davenport.png>
+Package pdftex.def Info: ./visualization/davenport.png used on input line 668.
+(pdftex.def)             Requested size: 334.70491pt x 162.60966pt.
+
+Overfull \hbox (27.41504pt too wide) in paragraph at lines 668--668
+[][]  
+ []
+
+[54
+
+ <./visualization/davenport.png (PNG copy)>] [55
+
+] [56
 
 ] [57
 
-] [58
+]
+<./visualization/amazon.png, id=482, 1108.14pt x 621.32124pt>
+File: ./visualization/amazon.png Graphic file (type png)
 
-] [59
+<use ./visualization/amazon.png>
+Package pdftex.def Info: ./visualization/amazon.png used on input line 695.
+(pdftex.def)             Requested size: 299.2018pt x 167.75897pt.
+ [58
 
-] [60
+ <./visualization/amazon.png>]
+<./visualization/netflix.jpg, id=490, 1927.2pt x 1084.05pt>
+File: ./visualization/netflix.jpg Graphic file (type jpg)
 
-] [61
+<use ./visualization/netflix.jpg>
+Package pdftex.def Info: ./visualization/netflix.jpg used on input line 699.
+(pdftex.def)             Requested size: 327.61967pt x 184.28606pt.
 
-] [62
+Overfull \hbox (20.3298pt too wide) in paragraph at lines 699--699
+[][]  
+ []
+
+[59
+
+ <./visualization/netflix.jpg>]
+<./visualization/netflix2.jpg, id=497, 639.89063pt x 448.67625pt>
+File: ./visualization/netflix2.jpg Graphic file (type jpg)
+
+<use ./visualization/netflix2.jpg>
+Package pdftex.def Info: ./visualization/netflix2.jpg used on input line 703.
+(pdftex.def)             Requested size: 287.94812pt x 201.90245pt.
+ [60
+
+ <./visualization/netflix2.jpg>] [61
 
 ]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [63
+File: ./visualization/sodapopcoke.png Graphic file (type png)
+
+<use ./visualization/sodapopcoke.png>
+Package pdftex.def Info: ./visualization/sodapopcoke.png used on input line 722
+.
+(pdftex.def)             Requested size: 318.17508pt x 216.80615pt.
+
+Overfull \hbox (10.88521pt too wide) in paragraph at lines 722--722
+[][]  
+ []
+
+[62
 
 ]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [64
+<./visualization/sodapopcoke_original.png, id=517, 850.17625pt x 663.47874pt>
+File: ./visualization/sodapopcoke_original.png Graphic file (type png)
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [65
+<use ./visualization/sodapopcoke_original.png>
+Package pdftex.def Info: ./visualization/sodapopcoke_original.png used on input
+ line 726.
+(pdftex.def)             Requested size: 297.56615pt x 232.22102pt.
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [66
+Overfull \vbox (2.56908pt too high) detected at line 726
+ []
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [67
+[63
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [68
+ <./visualization/sodapopcoke_original.png>]
+<./visualization/voting_habits_viz.png, id=525, 959.585pt x 560.0925pt>
+File: ./visualization/voting_habits_viz.png Graphic file (type png)
+
+<use ./visualization/voting_habits_viz.png>
+Package pdftex.def Info: ./visualization/voting_habits_viz.png used on input li
+ne 793.
+(pdftex.def)             Requested size: 316.66403pt x 184.83109pt.
+
+Overfull \hbox (9.37416pt too wide) in paragraph at lines 793--793
+[][]  
+ []
+
+[64
+
+ <./visualization/voting_habits_viz.png>] [65
+
+] [66
+
+] [67
+
+] [68
 
 ]
 \tf@nav=\write6
@@ -1371,27 +1370,27 @@ Missing character: There is no ™ in font cmss10!
 \tf@snm=\write8
 \openout8 = `COSMOS_Luis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 897.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 897.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 907.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 907.
 
 (./COSMOS_Luis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 897.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 897.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 907.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 907.
 Package rerunfilecheck Info: File `COSMOS_Luis.out' has not changed.
-(rerunfilecheck)             Checksum: 88CDC3B93E80FAE07708A090FB6E7CA9;689.
+(rerunfilecheck)             Checksum: 439E64C688D8F820980184AFD1A0EB0B;690.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 897.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
  ) 
 Here is how much of TeX's memory you used:
- 17112 strings out of 493117
- 331045 string characters out of 6135433
- 390057 words of memory out of 5000000
- 20004 multiletter control sequences out of 15000+600000
- 15147 words of font info for 55 fonts, out of 8000000 for 9000
+ 17113 strings out of 493117
+ 331065 string characters out of 6135433
+ 390047 words of memory out of 5000000
+ 20005 multiletter control sequences out of 15000+600000
+ 15441 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,72p,387b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

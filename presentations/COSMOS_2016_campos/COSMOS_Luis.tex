@@ -47,7 +47,7 @@
 
 %---------------------------------------------------------------------------------------------------------------------% 
 \title[COSMOS 2016]{COSMOS 2016}
-\subtitle{Data Visualization \\and \\The Difficulty of Science} 
+\subtitle{ The Difficulty of Science\\and\\Data Visualization} 
 
 \author{Luis F. Campos}
  
@@ -72,6 +72,199 @@
 \begin{frame}{Outline}
   \tableofcontents
 \end{frame}
+
+
+
+\section{A crisis in science? (Reproducibility)}
+
+\begin{frame}[t]\frametitle{A crisis in science? (Reproducibility)}
+\vspace{3mm}
+Reading (decreasing order of required-ness):\\
+\vspace{3mm}
+\begin{itemize}
+	\item \href{http://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503}{\beamergotobutton{Nature: Statisticians issue warning over misuse of P values}}\\	
+	\item \href{http://fivethirtyeight.com/features/science-isnt-broken/}{\beamergotobutton{FiveThirtyEight: Science Isn’t Broken}}\\	
+	\item \href{http://www.nature.com/news/scientific-method-statistical-errors-1.14700}{\beamergotobutton{Nature: Scientific method: Statistical errors}}\\	
+	\item \href{http://marginalrevolution.com/marginalrevolution/2016/07/results-free-review.html}{\beamergotobutton{Marginal Revolution: Results Free Review}}\\	
+\end{itemize}
+
+\end{frame}
+
+
+\subsection{p-values, huh?}
+
+\begin{frame}[t]\frametitle{p-value: what it is and what it is not}
+	An example:\\
+	\begin{itemize}
+		\item You want to see if a new drug works \pause
+		\item Give it to 50 people, see that it works for 49 people. \pause
+		\item If we assume that the drug does not work, this is very unlikely. \pause
+		\item If instead it worked for only 10 people. \pause
+		\item Assuming that the drug does not work, 10 is fairly likely. \pause
+	\end{itemize}
+	\vspace{3mm}
+	What it is:\\
+	{\bf{p-value}}: If a certain hypothesis (drug doesn't work) is true, {\emph{and all other assumptions made are valid}}, what is are the odds we see the results we saw. \pause
+	\begin{itemize}
+		\item An implementation of the scientific process
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}[t]\frametitle{p-value: what it is and what it is not}
+
+{\bf{What it is}}:\\
+	{\bf{p-value}}: If a certain hypothesis (drug doesn't work) is true, {\emph{and all other assumptions made are valid}}, what is are the odds we see the results we saw.\\
+\vspace{3mm}
+\pause
+{\bf{What it is not}}:
+\begin{itemize}
+	\item The probability of a hypothesis being true \pause
+	\item A replacement for science (science is hard) \pause
+	\item A justification for publication \pause
+\end{itemize}
+
+\href{http://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503}{\beamergotobutton{Nature: Statisticians issue warning over misuse of P values}}\\	
+\end{frame}
+
+\subsection{Publication Bias}
+
+\begin{frame}[t]\frametitle{Publication Bias}
+
+What is publication bias?
+\vspace{3mm}
+\begin{itemize}
+	\item Say researchers test 100 hypotheses
+	\begin{itemize}
+		\item[] e.g. test to see if a new drug/treatment works
+	\end{itemize}
+	\item About $5\%$ will be ``statistically significant'' even is none of them actually work
+	\item These are usually the (only) ones we see in publication.
+\end{itemize}
+\pause
+What's the issue? 
+\pause
+\begin{itemize}
+	\item Because publications mean a lot to scientists, they are motivated to ``hack'' their studies to significance
+	\pause
+	\begin{itemize}
+		\item p-Hacking
+		\item (Sometimes happens unintentionally as well)
+	\end{itemize}
+\end{itemize}
+
+\href{http://marginalrevolution.com/marginalrevolution/2016/07/results-free-review.html}
+{\beamergotobutton{A potential solution to publication bias}}\\	
+\end{frame}
+
+
+\subsection{p-Hacking}
+
+\begin{frame}[t]\frametitle{A bit about p-Hacking}
+
+Science, what's the issue?  \pause
+\begin{itemize}
+	\item Hard 
+	\item Expensive 
+	\item Time Consuming \pause
+	\item The best tool we have for reaching the truth 
+\end{itemize}
+\vspace{3mm}
+{\bf{Why is it so hard to get a rigorous result?!}}
+\vspace{3mm}
+
+\href{http://fivethirtyeight.com/features/science-isnt-broken/}
+{\beamergotobutton{Let's do an exercise}}\\	
+\end{frame}
+
+
+\begin{frame}[t]\frametitle{A p-Hacking Example}
+
+If you select 
+\begin{itemize}
+	\item Representatives and Senators to calculate ``in office''
+	\item GDP and stock-prices to measure a ``better economy''
+\end{itemize}
+\vspace{3mm}
+You'll find that when there are more Democrats in power, the economy is ``significantly'' better
+\vspace{3mm}
+
+If you select 
+\begin{itemize}
+	\item Presidents and Governors to calculate ``in office''
+	\item employment and inflation to measure a ``better economy''
+\end{itemize}
+\vspace{3mm}
+You'll find that when there are more Republicans in power, the economy is ``significantly'' better
+
+\end{frame}
+
+
+
+\begin{frame}[t]\frametitle{A p-Hacking Example}
+
+\vspace{5mm}
+\begin{itemize}
+	\item This shouldn't be interpreted as ``Science is unreliable and fickle''.
+	\item Instead, ``Science is harder than we give it credit for''.
+\end{itemize}
+\vspace{5mm}
+
+Hopefully going through this exercise gave you some things to look for in academic papers:
+\begin{itemize}
+	\item Did they describe their data transparently?
+	\item Did they describe their analysis in detail?
+	\item Did they justify the choices they made? (e.g. why these variables?)
+\end{itemize}
+
+
+\end{frame}
+
+
+
+\begin{frame}[t]\frametitle{Some possible Solutions to this}
+
+Maybe we should ``encourage'' p-hacking?
+\begin{itemize}
+	\item Of course, these decisions should be transparent
+	\item Some call this pseudo-science
+	\item This isn't science but that doesn't mean it's not meaningful 
+\end{itemize}
+\vspace{3mm}
+\pause
+Maybe we should ``encourage'' retractions?
+\begin{itemize}
+	\item Number of retractions are going up, but not fast enough
+	\item Replication studies should be encouraged
+	\item Should be part of the publishing/scientific process
+\end{itemize}
+
+\href{http://fivethirtyeight.com/features/science-isnt-broken/}
+{\beamergotobutton{Reading Assignment 2}}\\	
+\end{frame}
+
+
+
+\subsection{Some Hope for the Future}
+
+\begin{frame}[t]\frametitle{Some Hope for the Future}
+
+\begin{itemize}
+	\item ``People want to prove something, and a negative result doesn’t satisfy that craving'' \pause
+	\item ``Science is low-yield. Most experiments fail'' but that's okay \pause
+	\item ``Once an idea becomes fixed, it’s difficult to remove from the conventional wisdom'' \pause
+	\item ``Science is not a magic wand that turns everything it touches to truth'' \pause
+	\item ``Science isn’t broken, it’s just more difficult than most of us realize'' \pause
+\end{itemize}
+
+\vspace{3mm}
+ % {\bf{\Large{Thank you!}}}
+
+\end{frame}
+
+
+
+
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -%
 %				Introduction
@@ -367,7 +560,7 @@ We can ask other questions that might have different answers depending on where 
 	\begin{itemize}
 		\item Sub, hoagie, Italian sandwich, etc.
 	\end{itemize}
-	\item how do you pronounce "caramel"?
+	\item how do you pronounce ``caramel''?
 	\begin{itemize}
 		\item car-ml, carra-mel, either
 	\end{itemize}	
@@ -407,7 +600,7 @@ What are some natural questions?
 	 	\begin{itemize}
 	 		\item sub = 0 $\qquad$ hoagie = 1
 	 	\end{itemize}
-	 	\item how do you pronounce "caramel"? 
+	 	\item how do you pronounce ``caramel''? 
 	 	\begin{itemize}
 	 		\item car-ml = 0 $\qquad$ carra-mel = 1
 	 	\end{itemize}
@@ -533,6 +726,8 @@ Amazon.com\\
 \end{frame}
 
 
+
+
 % % % % % % % % % % % % % % % % % % % % % % % 
 \comment{
 % % % % % % % % % % % % % % % % % % % % % % % 
@@ -625,197 +820,12 @@ Amazon.com\\
 	\item[]
 \end{itemize}
 \pause
-% {\bf{\Large{Thank you!}}}
-\end{frame}
-
-
-\section{A crisis in science? (Reproducibility)}
-
-\begin{frame}[t]\frametitle{A crisis in science? (Reproducibility)}
-\vspace{3mm}
-Reading (decreasing order of requiredness):\\
-\vspace{3mm}
-\begin{itemize}
-	\item \href{http://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503}{\beamergotobutton{Nature: Statisticians issue warning over misuse of P values}}\\	
-	\item \href{http://fivethirtyeight.com/features/science-isnt-broken/}{\beamergotobutton{FiveThirtyEight: Science Isn’t Broken}}\\	
-	\item \href{http://www.nature.com/news/scientific-method-statistical-errors-1.14700}{\beamergotobutton{Nature: Scientific method: Statistical errors}}\\	
-	\item \href{http://marginalrevolution.com/marginalrevolution/2016/07/results-free-review.html}{\beamergotobutton{Marginal Revolution: Results Free Review}}\\	
-\end{itemize}
-
-\end{frame}
-
-
-\subsection{p-values, huh?}
-
-\begin{frame}[t]\frametitle{p-value: what it is and what it is not}
-	An example:\\
-	\begin{itemize}
-		\item You want to see if a new drug works \pause
-		\item Give it to 50 people, see that it works for 49 people. \pause
-		\item If we assume that the drug does not work, this is very unlikely. \pause
-		\item If instead it worked for only 10 people. \pause
-		\item Assuming that the drug does not work, 10 is fairly likely. \pause
-	\end{itemize}
-	\vspace{3mm}
-	What it is:\\
-	{\bf{p-value}}: If a certain hypothesis (drug doesn't work) is true, {\emph{and all other assumptions made are valid}}, what is are the odds we see the results we saw.
-	\begin{itemize}
-		\item An implementation of the scientific process \pause
-
-	\end{itemize}
-
-\end{frame}
-
-\begin{frame}[t]\frametitle{p-value: what it is and what it is not}
-
-{\bf{What it is}}:\\
-	{\bf{p-value}}: If a certain hypothesis (drug doesn't work) is true, {\emph{and all other assumptions made are valid}}, what is are the odds we see the results we saw.\\
-\vspace{3mm}
-\pause
-{\bf{What it is not}}:
-\begin{itemize}
-	\item The probability of a hypothesis being true \pause
-	\item A replacement for science (science is hard) \pause
-	\item A justification for publication \pause
-\end{itemize}
-
-\href{http://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503}{\beamergotobutton{Nature: Statisticians issue warning over misuse of P values}}\\	
-\end{frame}
-
-\subsection{Publication Bias}
-
-\begin{frame}[t]\frametitle{Publication Bias}
-
-What is publication bias?
-\vspace{3mm}
-\begin{itemize}
-	\item Say researchers test 100 hypotheses
-	\begin{itemize}
-		\item[] e.g. test to see if a new drug/treatment works
-	\end{itemize}
-	\item About $5\%$ will be ``statistically significant'' even is none of them actually work
-	\item These are usually the (only) ones we see in publication.
-\end{itemize}
-\pause
-What's the issue? 
-\pause
-\begin{itemize}
-	\item Because publications mean a lot to scientists, they are motivated to ``hack'' their studies to significance
-	\pause
-	\begin{itemize}
-		\item p-Hacking
-		\item (Sometimes happens unintentionally as well)
-	\end{itemize}
-\end{itemize}
-
-\href{http://marginalrevolution.com/marginalrevolution/2016/07/results-free-review.html}
-{\beamergotobutton{A potential solution to publication bias}}\\	
-\end{frame}
-
-
-\subsection{p-Hacking}
-
-\begin{frame}[t]\frametitle{A bit about p-Hacking}
-
-Science, what's the issue?  \pause
-\begin{itemize}
-	\item Hard 
-	\item Expensive 
-	\item Time Consuming \pause
-	\item The best tool we have for reaching the truth 
-\end{itemize}
-\vspace{3mm}
-{\bf{Why is it so hard to get a rigorous result?!}}
-\vspace{3mm}
-
-\href{http://fivethirtyeight.com/features/science-isnt-broken/}
-{\beamergotobutton{Let's do an exercise}}\\	
-\end{frame}
-
-
-\begin{frame}[t]\frametitle{A p-Hacking Example}
-
-If you select 
-\begin{itemize}
-	\item Representatives and Senators to calculate ``in office''
-	\item GDP and stock-prices to measure a ``better economy''
-\end{itemize}
-\vspace{3mm}
-You'll find that when there are more Democrats in power, the economy is ``significantly'' better
-\vspace{3mm}
-
-If you select 
-\begin{itemize}
-	\item Presidents and Governors to calculate ``in office''
-	\item employment and inflation to measure a ``better economy''
-\end{itemize}
-\vspace{3mm}
-You'll find that when there are more Republicans in power, the economy is ``significantly'' better
-
+{\bf{\Large{Thank you!}}}
 \end{frame}
 
 
 
-\begin{frame}[t]\frametitle{A p-Hacking Example}
 
-\vspace{5mm}
-\begin{itemize}
-	\item This shouldn't be interpreted as ``Science is unreliable and fickle''.
-	\item Instead, ``Science is harder than we give it credit for''.
-\end{itemize}
-\vspace{5mm}
-
-Hopefully going through this exercise gave you some things to look for in academic papers:
-\begin{itemize}
-	\item Did they describe their data transparently?
-	\item Did they describe their analysis in detail?
-	\item Did they justify the choices they made? (e.g. why these variables?)
-\end{itemize}
-
-
-\end{frame}
-
-
-
-\begin{frame}[t]\frametitle{Some possible Solutions to this}
-
-Maybe we should ``encourage'' p-hacking?
-\begin{itemize}
-	\item Of course, these decisions should be transparent
-	\item Some call this pseudo-science
-	\item This isn't science but that doesn't mean it's not meaningful 
-\end{itemize}
-\vspace{3mm}
-\pause
-Maybe we should ``encourage'' retractions?
-\begin{itemize}
-	\item Number of retractions are going up, but not fast enough
-	\item Replication studies should be encouraged
-	\item Should be part of the publishing/scientific process
-\end{itemize}
-
-\href{http://fivethirtyeight.com/features/science-isnt-broken/}
-{\beamergotobutton{Reading Assignment 2}}\\	
-\end{frame}
-
-
-
-\subsection{Some Hope for the Future}
-
-\begin{frame}[t]\frametitle{Some Hope for the Future}
-
-\begin{itemize}
-	\item ``People want to prove something, and a negative result doesn’t satisfy that craving'' \pause
-	\item ``Science is low-yield. Most experiments fail'' but that's ok \pause
-	\item ``Once an idea becomes fixed, it’s difficult to remove from the conventional wisdom'' \pause
-	\item ``Science is not a magic wand that turns everything it touches to truth'' \pause
-	\item ``Science isn’t broken, it’s just more difficult than most of us realize'' \pause
-\end{itemize}
-
-\vspace{3mm}
-\Large{Thank you!}
-
-\end{frame}
 
 
 
