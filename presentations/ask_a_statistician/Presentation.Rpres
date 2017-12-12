@@ -1,0 +1,242 @@
+Ask a Statistician
+========================================================
+author: Katy McKeough & Luis Campos
+date: 12/12/2017
+autosize: true
+
+
+Some Caveats
+========================================================
+incremental: true
+- We don't know everything
+- We're _just_ grad students
+- Statistics can be a contrvercial field, these are our opinions -- loosely based in reality. 
+- We hope this stimulates furher questions and discussion
+
+
+How may statisticiants does it take...
+========================================================
+incremental: true
+
+to change a lightulb? 
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+set.seed(1)
+hist(rpois(1000, 2), main = 'A survey* of Statisticians', xlab = '', cex.main = 3)
+```
+
+
+How may statisticiants does it take...
+========================================================
+to change a lightulb? 
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+set.seed(1)
+hist(rpois(1000, 30), main = 'A survey* of the general public', xlab = '', cex.main = 3)
+```
+
+*Simulated for purposes of humor
+
+
+
+Error Propogation
+========================================================
+
+"Often the upper and lower errors of a best fit parameter are different. In this case I take a mean value to propagate errors. How bad/good is this practice?"
+
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+
+set.seed(1)
+N = 10
+
+theta = rnorm(N, 0, 3)
+errors = replicate(N, rnorm(500, 0, 0.2), simplify = FALSE)
+
+
+plot(1:N, theta, pch = 19, col = 2, ylim = c(-4, 4))
+abline(h = 0)
+
+quantiles = sapply(errors, quantile, c(0.05, 0.95))
+L = theta + quantiles[1,]
+U = theta + quantiles[2,]
+
+segments(1:N, L, 1:N, U, col = 2)
+points(1:N, L, pch = '-', col = 2)
+points(1:N, U, pch = '-', col = 2)
+
+# sqrt(mean(((U-L)/2)^2))
+
+abline(h = mean(theta), col = 2)
+abline(h = c(mean(theta) - sqrt(mean(((U-L)/2)^2)), mean(theta) + sqrt(mean(((U-L)/2)^2))), lty = 2, col = 2)
+
+# points(1:N, theta + sapply(errors, sample, 1), pch = 19, col = 1)
+
+```
+
+Error Propogation
+========================================================
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+
+
+# a = 0.2b^2
+
+
+# theta = rnorm(N, 0, 3)
+errors = replicate(N, rgamma(500, 0.2, 1)-0.2, simplify = FALSE)
+
+
+plot(1:N, theta, pch = 19, col = 2, ylim = c(-4, 4))
+abline(h = 0)
+
+quantiles = sapply(errors, quantile, c(0.05, 0.95))
+L = theta + quantiles[1,]
+U = theta + quantiles[2,]
+
+segments(1:N, L, 1:N, U, col = 2)
+points(1:N, L, pch = '-', col = 2)
+points(1:N, U, pch = '-', col = 2)
+
+# sqrt(mean(((U-L)/2)^2))
+
+abline(h = mean(theta), col = 2)
+abline(h = c(mean(theta) - sqrt(mean(((U-L)/2)^2)), mean(theta) + sqrt(mean(((U-L)/2)^2))), lty = 2, col = 2)
+
+#points(1:N, theta + sapply(errors, sample, 1), pch = 19, col = 1)
+
+out = list()
+for(i in 1:10) out[[i]] = theta[i] + errors[[i]]
+
+mu_star = apply(do.call('rbind', out), 2, mean)
+
+
+
+```
+
+
+Error Propogation
+========================================================
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+
+
+# a = 0.2b^2
+
+
+# theta = rnorm(N, 0, 3)
+#errors = replicate(N, rgamma(500, 0.2, 1)-0.2, simplify = FALSE)
+
+
+plot(1:N, theta, pch = 19, col = 2, ylim = c(-4, 4))
+abline(h = 0)
+
+quantiles = sapply(errors, quantile, c(0.05, 0.95))
+L = theta + quantiles[1,]
+U = theta + quantiles[2,]
+
+segments(1:N, L, 1:N, U, col = 2)
+points(1:N, L, pch = '-', col = 2)
+points(1:N, U, pch = '-', col = 2)
+
+# sqrt(mean(((U-L)/2)^2))
+
+abline(h = mean(theta), col = 2)
+abline(h = c(mean(theta) - sqrt(mean(((U-L)/2)^2)), mean(theta) + sqrt(mean(((U-L)/2)^2))), lty = 2, col = 2)
+
+#points(1:N, theta + sapply(errors, sample, 1), pch = 19, col = 1)
+
+out = list()
+for(i in 1:10) out[[i]] = theta[i] + errors[[i]]
+
+mu_star = apply(do.call('rbind', out), 2, mean)
+
+abline(h = mean(mu_star), col = 3)
+abline(h = quantile(mu_star,c(0.05, 0.95)), lty = 2, col = 3)
+
+
+
+```
+
+
+Solar Time Series Correlation
+========================================================
+We are comparing time series solar observations to find long term trends. Currently, we take a 28 day mean to compare between observations (e.g. compare emerging flux and filament tilt). The comparison indicates a few possible correlated features by eye. However, we cannot confirm the correlation by standard regression techniques because outside the features the time series observations show significant noise. Therefore, we have two questions. 
+
+- First, are running means the best way to correlate time series observations or do more advanced statistical techniques exist? 
+- Second, is there statistical way to match features across different time series observations when the noise is large?
+
+
+Solar Time Series Correlation
+========================================================
+<img src="./tilt_v_time_w_ss.png" alt="", width = "80%">
+
+
+Solar Time Series Correlation
+========================================================
+<img src="./ns_diff_tilt_diff_ss_height_fil4.png" alt="", width = "50%">
+
+
+
+Lomb-Scargle Periodogram (or similar analysis) to constrain proposed models. So, you want to be Bayesian.
+========================================================
+
+- We see no significant evidence of signals in the Lomb-Scargle Periodogram.  
+- There are some models of universe expansion that predict some sort of oscillatory signals (though not generally pure sine modes), modulated by various parameters. 
+- We would like to say something along the lines of: "given this model with these free parameters, our analysis shows that values of the parameters outside of this range are ruled out with such and such certainty.""
+
+
+Explaining Shrinkage
+========================================================
+
+Your data looks like this:
+$$X_{ij} \sim N (\mu_{i}, 1)$$
+for $i = 1, ..., k$ and $j = 1, ...n$
+
+
+- We know that a good estimate of $\mu_{i}$ is the MLE $$\bar{X}_i = \frac{1}{n} \sum_{j = 1}^n X_{ij}$$
+- Turns out, an "overall" better estimate when $k>2$ is 
+$$ \mu_i = \left(1 - \frac{n(k-2)}{\sum_{i = 1}^k \bar{X}_i^2}\right)\bar{X}_i$$
+
+
+A Visualization
+========================================================
+
+$$	
+(\bar{X}_1, \bar{X}_2, \bar{X}_3) \sim N((\mu_1,\mu_2,\mu_3), I_3/n)
+$$
+
+We consider two estimators of the vector $(\mu,\mu,\mu)$ for this visualization:
+
+- Mean: $X$
+- James-Stein: $JS = (1-\frac{k-2}{||X||^2})X$
+
+ 
+ 
+Detection significance
+========================================================
+
+
+- Assume there exists a very wide field X-ray telescope with 2 x 10^6 cells of position.
+- The background level in each cell is 4.2 x 10^-4 counts/sec, Poisson distributed. 
+- An X-ray source appears in only a single cell.
+- Its strength is S1. 
+- How long an exposure is needed to be have 99.9% confidence that the source exists?
+
+
+Discussion Topics:
+
+- Scenario 1: If we know which cell the source is in.
+- Scenario 2: We don't know.
+- Multiple Hypothesis Testing
+- Correlated Hypotheses -- Modeling?
+
+
+====
+
+```{r, echo = FALSE, fig.height = 12, fig.width = 14}
+set.seed(1)
+# plot(apply(matrix(exp(rnorm(10000)), nrow = 50), 1, sum), type = 'b', ylab = '')
+# lines(apply(matrix(exp(rnorm(10000)), nrow = 50), 1, sum), type = 'b', col = 2)
+```
+
